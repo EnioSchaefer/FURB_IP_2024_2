@@ -15,8 +15,8 @@ public class Uni3Exe10 {
         System.out.println("Informe o valor do cateto B: ");
         double catetoB = scanner.nextDouble();
 
-        double hipotenusa = catetoA * catetoA + catetoB * catetoB;
-        System.out.println("Volume da lata: " + hipotenusa);
+        double hipotenusaSqrd = catetoA * catetoA + catetoB * catetoB;
+        System.out.println("Volume da lata: " + hipotenusaSqrd);
 
         scanner.close();
     }

@@ -8,12 +8,13 @@ public class Uni3Exe01 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite o valor da altura: ");
-        double altura = scanner.nextDouble();
+        Double altura = scanner.nextDouble();
+
         System.out.println("Digite o valor da largura: ");
-        double largura = scanner.nextDouble();
+        Double largura = scanner.nextDouble();
 
         String area = String.valueOf(altura * largura);
-        int posicaoPonto = area.indexOf('.');
+        Integer posicaoPonto = area.indexOf('.');
         String areaFormatada = area.substring(0, posicaoPonto + 2);
 
         System.out.println("Total Area: " + areaFormatada + " m²");

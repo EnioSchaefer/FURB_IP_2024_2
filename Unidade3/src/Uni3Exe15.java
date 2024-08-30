@@ -13,9 +13,11 @@ public class Uni3Exe15 {
         System.out.println("Informe um número inteiro: ");
         Integer numeroInt = scanner.nextInt();
 
-        String[] numeros = numeroInt.toString().split("");
+        Integer unidade = numeroInt % 10;
+        Integer dezena = numeroInt - unidade % 100;
+        Integer centena = numeroInt - dezena - unidade % 1000;
 
-        String mensagem = numeros[0] + " centena(s)" + "  " + numeros[1] + " dezena(s)" + "  " + numeros[2] + " unidade(s)";
+        String mensagem = centena + " centena(s)" + "  " + dezena + " dezena(s)" + "  " + unidade + " unidade(s)";
         System.out.println(mensagem);
 
         scanner.close();

@@ -11,7 +11,7 @@ public class Uni3Exe11 {
         System.out.println("Informe a temperatura em graus Celsius (°C): ");
         double ValorCelsius = scanner.nextDouble();
 
-        double valorFahrenheit = (ValorCelsius * (9 / 5)) + 32;
+        double valorFahrenheit = (ValorCelsius * 9 / 5) + 32;
         System.out.println("Temperatura em Fahrenheit (°F): " + valorFahrenheit);
 
         scanner.close();
