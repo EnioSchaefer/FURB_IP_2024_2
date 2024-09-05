@@ -7,7 +7,6 @@ public class Uni4Exe07 {
     // Escreva um algoritmo que dado o peso da carta, em gramas, 
     // determine o custo do selo.
 
-
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
 
